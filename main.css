@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+}
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    background-color: black;
+}
+
+.first {
+    height: 100%; 
+    text-align: center;
+    margin: 60px
+} 
+
+.first h1 {
+    margin: 40px 0; 
+    font-family: Arial, Helvetica, sans-serif;
+    color:whitesmoke; 
+    font-size: 40px; 
+    background-color: grey;
+}  
+
+
+
+.first h1:hover {
+    background: linear-gradient(red, blue);
+    border-radius: 2px;
+}
+
+.first img {
+    border-radius: 50%;
+}
+
+.first p {
+    color: white;
+    margin: 50px 0;
+    padding: 0 200px; 
+    font-size: 25px; 
+    font-family: 'Courier New', Courier, monospace; 
+    font-weight: 400;
+}  
+
+.second {
+    text-align: center;
+    height: 100%;
+}  
+
+.second h2 {
+    margin-top: 30px; 
+    margin-bottom: 30px;
+    opacity: 0.9;
+    color: rgb(44, 63, 240);
+}
+
+.second img {
+    margin-bottom: 40px;
+} 
+
+.third {
+    text-align: center;
+    height: 100%;
+} 
+
+.third h2 {
+    margin: 30px; 
+    font-size: 24px;
+    opacity: 0.9;
+    color: rgb(44, 63, 240);
+} 
+
+.third p {
+    color: white; 
+    font-size: 20px;
+    margin-bottom: 30px; 
+} 
+
+.link {
+    text-decoration: none;
+} 
+
+form {
+    margin-top: 30px;
+} 
+
+form .titles {
+    margin-top: 50px;
+    color: white; 
+    font-size: 15px; 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+} 
+
+form .form_item {
+    margin-top: 5px; 
+    border-radius: 5px; 
+    height: 40px;
+    width: 260px;
+} 
+
+form button {
+    margin: 50px;
+    padding: 20px 50px; 
+    border-radius: 4px;
+    color: red; 
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 600;
+}
+
+form button:hover {
+    background: linear-gradient(red, blue); 
+    color: whitesmoke;
+}
+
+
+
